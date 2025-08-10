@@ -23,7 +23,7 @@ const dArray = [
 console.log('The Orijinal Array -> ', dArray);
 
 dArray[1][0] = 99;
-console.log('The Array After Changed Its Elements - > ' ,dArray);
+console.log('The Array After Changed Its Elements -> ' ,dArray);
 
 
 
