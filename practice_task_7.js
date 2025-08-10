@@ -17,3 +17,13 @@ Expected Array:
   [5, 6]
 ]
 */
+
+const dArray = [
+  [1, 2],
+  [3, 4],
+  [5, 6]
+];
+
+console.log('The Orijinal Array -> ',dArray);
+dArray[2][0] = 99;
+console.log('The Changed Array -> ',dArray);
