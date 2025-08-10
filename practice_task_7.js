@@ -6,7 +6,7 @@ input:
 
 [
     [1, 2],
-  ->[3, 4], 
+  ->[3, 4],  // this is the fact that will be working space 🚩
     [5, 6]
 ]
 Expected Array:
