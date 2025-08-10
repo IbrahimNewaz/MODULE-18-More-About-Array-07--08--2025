@@ -11,11 +11,7 @@ input:
 ]
 Expected Array:
 
-[
-  [1, 2],
-  [99, 4],
-  [5, 6]
-]
+clar
 */
 
 const dArray = [
@@ -24,6 +20,10 @@ const dArray = [
   [5, 6]
 ];
 
-console.log('The Orijinal Array -> ',dArray);
-dArray[2][0] = 99;
-console.log('The Changed Array -> ',dArray);
+console.log('The Orijinal Array -> ', dArray);
+
+dArray[1][0] = 99;
+console.log('The Array After Changed Its Elements - > ' ,dArray);
+
+
+
